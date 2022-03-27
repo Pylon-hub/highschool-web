@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+1.
+2.	<html>  
+3.	<head>  
+4.	<meta name="viewport" content="width=device-width, initial-scale=1">  
+5.	<style>  
+6.	body{  
+7.	  font-family: Calibri, Helvetica, sans-serif;  
+8.	  background-color: pink;  
+9.	}  
+10.	.container {  
+11.	    padding: 50px;  
+12.	  background-color: lightblue;  
+13.	}  
+14.	  
+15.	input[type=text], input[type=password], textarea {  
+16.	  width: 100%;  
+17.	  padding: 15px;  
+18.	  margin: 5px 0 22px 0;  
+19.	  display: inline-block;  
+20.	  border: none;  
+21.	  background: #f1f1f1;  
+22.	}  
+23.	input[type=text]:focus, input[type=password]:focus {  
+24.	  background-color: orange;  
+25.	  outline: none;  
+26.	}  
+27.	 div {  
+28.	            padding: 10px 0;  
+29.	         }  
+30.	hr {  
+31.	  border: 1px solid #f1f1f1;  
+32.	  margin-bottom: 25px;  
+33.	}  
+34.	.registerbtn {  
+35.	  background-color: #4CAF50;  
+36.	  color: white;  
+37.	  padding: 16px 20px;  
+38.	  margin: 8px 0;  
+39.	  border: none;  
+40.	  cursor: pointer;  
+41.	  width: 100%;  
+42.	  opacity: 0.9;  
+43.	}  
+44.	.registerbtn:hover {  
+45.	  opacity: 1;  
+46.	}  
+47.	</style>  
+48.	</head>  
+49.	<body>  
+50.	<form>  
+51.	  <div class="container">  
+52.	  <center>  <h1> Student Registeration Form</h1> </center>  
+53.	  <hr>  
+54.	  <label> Firstname </label>   
+55.	<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+56.	<label> Middlename: </label>   
+57.	<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+58.	<label> Lastname: </label>    
+59.	<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+60.	<div>  
+61.	<label>   
+62.	Course :  
+63.	</label>   
+64.	  
+65.	<select>  
+66.	<option value="Course">Course</option>  
+67.	<option value="BCA">BCA</option>  
+68.	<option value="BBA">BBA</option>  
+69.	<option value="B.Tech">B.Tech</option>  
+70.	<option value="MBA">MBA</option>  
+71.	<option value="MCA">MCA</option>  
+72.	<option value="M.Tech">M.Tech</option>  
+73.	</select>  
+74.	</div>  
+75.	<div>  
+76.	<label>   
+77.	Gender :  
+78.	</label><br>  
+79.	<input type="radio" value="Male" name="gender" checked > Male   
+80.	<input type="radio" value="Female" name="gender"> Female   
+81.	<input type="radio" value="Other" name="gender"> Other  
+82.	  
+83.	</div>  
+84.	<label>   
+85.	Phone :  
+86.	</label>  
+87.	<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+88.	<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+89.	Current Address :  
+90.	<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+91.	</textarea>  
+92.	 <label for="email"><b>Email</b></label>  
+93.	 <input type="text" placeholder="Enter Email" name="email" required>  
+94.	  
+95.	    <label for="psw"><b>Password</b></label>  
+96.	    <input type="password" placeholder="Enter Password" name="psw" required>  
+97.	  
+98.	    <label for="psw-repeat"><b>Re-type Password</b></label>  
+99.	    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+100.	    <button type="submit" class="registerbtn">Register</button>    
+101.	</form>  
+102.	</body>  
+103.	</html>  
+
+
